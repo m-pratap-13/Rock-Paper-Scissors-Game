@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game </h1>
+      <div class="display">
+        <p> Display Mode :</p>
+        <button id="display">Dark</button>
+      </div>
+
+    <div class="choices">
+        <div class="choice" id="Paper">
+            <img src="Images/xPaper.jpg" alt="Paper">
+        </div>
+        <div class="choice" id="Rock">
+            <img src="Images/xRock.jpg" alt="Rock">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="Images/xScissors.jpg" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="myscore">
+            <p id="myscore">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="botscore">
+            <p id ="botscore">0</p>
+            <P>BOT</P>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <div class="msg">Play Your Move </div>
+    </div>
+    <script src="Game.js"></script>
+    <script src="displayMode.js"></script>
+</body>
+</html>
